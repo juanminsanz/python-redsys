@@ -31,6 +31,8 @@ URL_OK = "Ds_Merchant_UrlOK"
 URL_KO = "Ds_Merchant_UrlKO"
 CONSUMER_LANGUAGE = "Ds_Merchant_ConsumerLanguage"
 
+MERCHANT_PAYMETHODS ="DS_MERCHANT_PAYMETHODS"
+
 # Credit card data parameters
 PAN = "Ds_Merchant_Pan"
 EXPIRY_DATE = "Ds_Merchant_ExpiryDate"
@@ -56,6 +58,7 @@ MERCHANT_PARAMETERS_MAP = {
     "url_ok": URL_OK,
     "url_ko": URL_KO,
     "consumer_language": CONSUMER_LANGUAGE,
+    "merchant_paymethods": MERCHANT_PAYMETHODS,
     "pan": PAN,
     "expiry_date": EXPIRY_DATE,
     "cvv2": CVV2,
